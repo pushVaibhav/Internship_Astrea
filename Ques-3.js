@@ -14,4 +14,4 @@ for(i=0;i<=26;i++)
         console.log('Frequency of ' + x[i] + ' is ' + c)
         c=0
     }
-} 
+}
