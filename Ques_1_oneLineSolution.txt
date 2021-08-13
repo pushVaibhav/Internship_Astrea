@@ -1,0 +1,2 @@
+x="this_is_a_variable"
+y=x.split('_').map((e,i)=>{if(i!==0){e=e[0].toUpperCase() + e.slice(1,e.length)}return e}).join('')

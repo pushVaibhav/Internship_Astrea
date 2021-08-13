@@ -1,0 +1,50 @@
+var is function scope
+let and const is block scope
+The typeof operator returns a string indicating the type of the unevaluated operand.
+
+var c= true;
+console.log(typeof(c));
+
+var c=10;
+var d='10';
+if(c==d)
+{
+	console.log(
+}
+
+
+Use push to insert in an array.
+Use unshift to insert element in the starting of array.
+Use pop to delete the element in an array at last.
+Use shift to delete the element at the start of an array.
+
+map.get('f');
+map.size;
+for(let [key,val] of map)
+
+set.has;
+set.add;
+
+for(let item of set)
+{
+	console.log(item);
+}
+
+input:hello world
+s.slice(1,4);
+output:ell
+
+input:hello world
+s.substr(6,3);
+output:wor
+
+s.replace('hello','hi');
+output:hi world
+
+charCode
+concat
+charAt
+lowercase
+uppercase
+
+CODERUNNER
