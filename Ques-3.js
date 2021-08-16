@@ -1,17 +1,12 @@
-var x='abcdefghijklmnopqrstuvwxyz'.split('');
-var z='hpcklhhpk'.split('');
-var c=0;
-for(i=0;i<=26;i++)
+var a="Welcome to JavaScript World"
+a= a.split('')
+for(i=0;i<a.length-1;i++)
 {
-    for(j=0;j<z.length;j++)
+    for(j=i+1;j<a.length;j++)
     {
-        if(x[i]==z[j])
-        { c++
+        if(a[i]==a[j]&&a[i]!=' ')
+        {
+            console.log(a[i]+'is a duplication character')
         }
-    }
-    if(c!=0)
-    {
-        console.log('Frequency of ' + x[i] + ' is ' + c)
-        c=0
     }
 }
